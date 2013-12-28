@@ -1,0 +1,52 @@
+
+<%#= javascript_include_tag "video", "data-turbolinks-track" => true %>
+
+<script type="text/javascript">
+  // Can also be used with $(document).ready()
+  $(window).load(function(){
+  // Wistia handler.
+  wistiaEmbed = document.getElementById( 'player_1' ).wistiaApi;
+ 
+  // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
+  $( '.flexslider' )
+    .fitVids()
+    .flexslider({
+      animation: 'slide',
+      useCSS: false,
+      animationLoop: false,
+      smoothHeight: true,
+      start: function( slider ) {
+        $('body').removeClass( 'loading' );
+      },
+      before: function ( slider ) {
+        wistiaEmbed.pause();
+      }
+  });
+ 
+  wistiaEmbed.bind( 'play', function() {
+    jQuery( '.flexslider' ).flexslider( 'pause' );
+  });
+ 
+  wistiaEmbed.bind( 'end', function() {
+    jQuery( '.flexslider' ).flexslider( 'play' );
+  });
+});
+</script>
+<div class="Siltek-sheet clearfix">
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <iframe id="player_1" src="http://player.vimeo.com/video/39683393?api=1&player_id=player_1" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    </li>
+    <li>
+      <img src="/assets/slide61e023944d6046f7be158e17852cf7961.png" />
+    </li>
+    <li>
+      <img src="/assets/33.jpg" />
+    </li>
+    <li>
+      <img src="/assets/ruby_banner img.jpg" />
+    </li>
+  </ul>
+</div>
+</div>

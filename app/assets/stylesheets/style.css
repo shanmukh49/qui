@@ -3575,7 +3575,7 @@ input.gotopage {width: 30px; margin-right: 5px;}
    position: relative;
 }
 #greypanel h6  {
-   background: url(../assets/framework/download-back-top.gif)) no-repeat top center;
+   background: url(../assets/framework/download-back-top.gif) no-repeat top center;
    font-size: .7em;
    color: #666;
    text-transform: uppercase;

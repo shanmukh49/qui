@@ -1,7 +1,27 @@
 <!DOCTYPE html>
     
-<%= javascript_include_tag "jquery.flexslider-min", "data-turbolinks-track" => true %>
-    <%= javascript_include_tag "jquery.flexslider", "data-turbolinks-track" => true %>
+<%#= javascript_include_tag "jquery.flexslider-min", "data-turbolinks-track" => true %>
+    <%#= javascript_include_tag "jquery.flexslider", "data-turbolinks-track" => true %>
+<script type="text/javascript">
+ $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
+   
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
+</script>
+
     <div class="Siltek-sheet clearfix">
       
     <div id="slider" class="flexslider">

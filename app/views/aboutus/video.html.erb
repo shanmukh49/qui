@@ -1,52 +1,126 @@
+ <div class="Siltek-sheet clearfix">
+<%= stylesheet_link_tag    "nivo-slider", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "jquery.nivo.slider", "data-turbolinks-track" => true %>
+ <script type="text/javascript">
+    
+    //<!--  Load the slider  --> 
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    
+    </script>
 
-<%#= javascript_include_tag "video", "data-turbolinks-track" => true %>
+<div id="slider" class="nivoSlider">
+            
+                <!--  Images to slide through.  -->
+                <img src="/assets/tech4.jpeg" data-thumb="/assets/tech4.jpeg" alt="" />
+                <a href="http://dev7studios.com"><img src="/assets/tech3.jpeg" data-thumb="/assets/tech3.jpeg" alt="" title="This is an example of a caption" /></a>
+                <img src="/assets/tech2.jpeg" data-thumb="/assets/tech2.jpeg" alt="" data-transition="slideInLeft" />
+                <img src="/assets/tech1.jpeg" data-thumb="/assets/tech1.jpeg" alt="" title="#htmlcaption" />
+            </div>
+            
+            <!--  Captions to show for images  -->
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+<div class="contents-layout">
+  <div class="Siltek-content-layout">
 
-<script type="text/javascript">
-  // Can also be used with $(document).ready()
-  $(window).load(function(){
-  // Wistia handler.
-  wistiaEmbed = document.getElementById( 'player_1' ).wistiaApi;
+<section id="maincontent">
+      <!--IE Rounded Border-->
+      <div class="t"><div class="b"><div class="l"><div class="r"><div class="bl"><div class="br"><div class="tl"><div class="tr">
+            
+
+    <div id="features">
+        
+    <dl class="usp">
+        <dt>
+            <a title="" href="/about-klix-office-vending-machines">World-class service and delivery</a>
+        </dt>
+        <dd class="image">
+            <a title="" href="/about-klix-office-vending-machines">
+                <img src="/assets/usp-delivery.png" />
+            </a>
+        </dd>
+        <dd>With nationwide coverage, our friendly &amp; helpful staff make sure you get exactly what you need, from initial contact to servicing &amp; ordering drinks. </dd>
+        <dd class="link">
+            <a title="" href="/about-klix-office-vending-machines">KLIX drinks vending service »</a>
+        </dd>
+    </dl>
+    <dl class="usp">
+        <dt>
+            <a title="" href="/drinks-vending">Wide variety of quality drinks delivery</a>
+        </dt>
+        <dd class="image">
+            <a title="" href="/drinks-vending">
+                <img src="/assets/usp-drinks2.png" />
+            </a>
+        </dd>
+        <dd>Over 25 great tasting drinks. In-Cup quality and Brita technology delivers hot and cold drinks from the iconic brands you love. </dd>
+        <dd class="link">
+            <a title="" href="/drinks-vending">Complete vending drinks solutions »</a>
+        </dd>
+    </dl>
+    <dl class="usp">
+        <dt>
+            <a title="" href="/vending-machines">Reliable and efficient technology</a>
+        </dt>
+        <dd class="image">
+            <a title="" href="/vending-machines">
+                <img src="/assets/usp-reliable1.png" />
+            </a>
+        </dd>
+        <dd>A range of high quality, energy efficient equipment that is upto 9 times more reliable. Designed to be easy to use and hassle free. </dd>
+        <dd class="link">
+            <a title="" href="/vending-machines">KLIX range of vending machines»</a>
+        </dd>
+    </dl>
+
+    </div>
+
+    <div class="clearfix"></div>
+
+    <img src="/assets/images/spacer.gif" width="1" height="20"/> 
+
+    </div></div></div></div></div></div></div></div>
+      <!--IE rounded border fix ends-->
  
-  // Call fitVid before FlexSlider initializes, so the proper initial height can be retrieved.
-  $( '.flexslider' )
-    .fitVids()
-    .flexslider({
-      animation: 'slide',
-      useCSS: false,
-      animationLoop: false,
-      smoothHeight: true,
-      start: function( slider ) {
-        $('body').removeClass( 'loading' );
-      },
-      before: function ( slider ) {
-        wistiaEmbed.pause();
-      }
-  });
- 
-  wistiaEmbed.bind( 'play', function() {
-    jQuery( '.flexslider' ).flexslider( 'pause' );
-  });
- 
-  wistiaEmbed.bind( 'end', function() {
-    jQuery( '.flexslider' ).flexslider( 'play' );
-  });
-});
-</script>
-<div class="Siltek-sheet clearfix">
-<div class="flexslider">
-  <ul class="slides">
-    <li>
-      <iframe id="player_1" src="http://player.vimeo.com/video/39683393?api=1&player_id=player_1" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    </li>
-    <li>
-      <img src="/assets/slide61e023944d6046f7be158e17852cf7961.png" />
-    </li>
-    <li>
-      <img src="/assets/33.jpg" />
-    </li>
-    <li>
-      <img src="/assets/ruby_banner img.jpg" />
-    </li>
-  </ul>
+    </section>
+
+
+<div class="home">
+        <p></p><p style="text-align: justify;"><img width="350" height="30" alt=""  src="/assets/HW2.jpg"><br><span style="font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">Siltek Software Solutions Pvt. Ltd., is one of the
+                                                 leading Software &amp; Web Development, IT Consulting and Training company with
+                                                 extensive experience in designing and development of cutting edge software
+                                                 solutions. We are a group of highly motivated IT professionals with a
+                                                 capability to innovate and a strong desire to excel.</span></p>
+                                                 
+                                                <p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">With our development office in INDIA and Offices in
+                                                 USA, Siltek is a customer-centric company working to provide solutions that are
+                                                 Reliable, On-time and Flexible. The solutions designed are purely based on
+                                                 business and technical requirements of the project in hand. Software
+                                                 Development Life Cycle is strictly followed to ensure the timely delivery of
+                                                 the project without compromising on quality.</span>&nbsp;</p>
+                                                 
+                                                <p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">Siltek provides a broad range of offshore
+                                                 outsourcing services including Application and Systems Level Programming on
+                                                 Leading Technologies.</span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; text-align: justify;"><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">Siltek
+                                                 has a niche in providing training to</span> <b><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">Engineering
+                                                 (B.Tech/M.Tech), MBA/MCA</span></b> <span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;"><b><span style="font-size: 13px;">students</span></b></span><b> </b><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">and <b><span style="font-size: 13px;">Freshers</span></b> who are<b> </b>looking for a
+                                                 breakthrough</span><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">. Thousands of Engineering students have successfully completed their
+                                                 Mini and Major projects. The focus of the Training is to facilitate students
+                                                 with Live Projects on latest technologies like</span> <b><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">Mobile</span></b> <b><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">Applications Development (Android, iOS), Cloud
+                                                 Computing</span></b><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">, <b><span style="font-size: 13px;">MS .NET and Java etc.,</span></b></span> <b><span style="line-height: 115%; font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 13px;">under the strict guidance
+                                                 of Industry Experts.</span></b></p><span style="-webkit-border-horizontal-spacing: 2px; -webkit-border-vertical-spacing: 2px;"><table class="Siltek-article" style="margin-left: auto; "><tbody><tr><td style="text-align: right; width: 215px; "><span style="color: rgb(46, 59, 62); "><span style="line-height: 18.890625px; background-color: rgb(255, 255, 255); "><span style="color: rgb(51, 51, 51); font-family: Verdana; text-align: justify; background-color: rgb(255, 255, 255); "><span style="color: rgb(54, 71, 73); font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; text-align: left; "><span style="text-align: justify; background-color: rgb(255, 255, 255); color: rgb(97, 112, 111); font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; "><span style="color: rgb(54, 71, 73); text-align: left; "><span style="line-height: 18.890625px; background-color: rgb(255, 255, 255); "><span style="color: rgb(51, 51, 51); font-family: Verdana; text-align: justify; background-color: rgb(255, 255, 255); font-size: 11px; "><span style="color: rgb(54, 71, 73); font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; text-align: left; font-size: 13px; "><span style="text-align: justify; background-color: rgb(255, 255, 255); color: rgb(97, 112, 111); font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif; "><span style="background-color: rgb(255, 255, 255); color: rgb(97, 112, 111); font-family: 'Open Sans', Arial, 'Arial Unicode MS', Helvetica, sans-serif;  ">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="http://www.siltek.net/" style="color: rgb(82, 108, 111); background-color: rgb(255, 255, 255);  ">more</a></span>...</span></span></span></span></span></span></span></span></span></span></td></tr></tbody></table></span>
+                                                <p>
+                                                </p><p>
+                            </p>
+    
+
+</div>
+
 </div>
 </div>
+
+
+  </div>

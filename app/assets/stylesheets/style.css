@@ -952,7 +952,7 @@ position: relative;
 border-radius: 8px;
 border: 1px solid rgb(209, 209, 209);
 margin-top:10px;
-
+background-color:#FA8258;
 }
 .Siltek-content-layout-row 
 {
@@ -2811,7 +2811,7 @@ margin:0 auto;
    top: 0;
    cursor:default;
    /*overflow:hidden;*/
-
+color:#ffffff;
 }
 
 .slider1

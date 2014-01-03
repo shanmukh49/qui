@@ -482,13 +482,13 @@ li p, .Siltek-postcontent li p, .Siltek-blockcontent li p
 .Siltek-nav
 {
    background: #789594;
-   background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -moz-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -o-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -ms-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   -svg-background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
+   background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -moz-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -o-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -ms-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   -svg-background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    padding:6px;
    margin:0 auto;
    position: relative;
@@ -642,13 +642,13 @@ ul.Siltek-hmenu>li>a
 ul.Siltek-hmenu>li>a.active
 {
    background: #789594;
-   background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -moz-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -o-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -ms-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   -svg-background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
+   background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -moz-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -o-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -ms-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   -svg-background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    -webkit-border-radius:3px;
    -moz-border-radius:3px;
    border-radius:3px;
@@ -667,13 +667,13 @@ ul.Siltek-hmenu>li:hover>a {
 ul.Siltek-hmenu>li>a:hover, .desktop ul.Siltek-hmenu>li:hover>a
 {
    background: #789594;
-   background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -webkit-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -moz-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -o-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: -ms-linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
-   -svg-background: linear-gradient(top, #04B2AC 0, #0A7C78 100%) no-repeat;
+   background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -webkit-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -moz-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -o-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: -ms-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
+   -svg-background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    -webkit-border-radius:3px;
    -moz-border-radius:3px;
    border-radius:3px;
@@ -2746,7 +2746,7 @@ height: 10px;
 {
    /*position:fixed;*/
    z-index:999999;
-   background-color: #0B3B39;
+   background-color: #2E9AFE;
    width:100%;
    height:100px;
 }
@@ -2786,7 +2786,7 @@ height: 10px;
 }
 
 .smenu{
-background-color: #0B3B39;
+background-color: #2E9AFE;
 float:right;
 margin-top:30px;
 

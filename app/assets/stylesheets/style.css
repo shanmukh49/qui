@@ -963,6 +963,7 @@ background-color:#063764;
 {
    display: table-cell;
    vertical-align: top;
+   padding-left:60px;
 }
 
 /* need only for content layout in post content */ 
@@ -2811,7 +2812,7 @@ margin:0 auto;
    top: 0;
    cursor:default;
    /*overflow:hidden;*/
-color:#ffffff;
+color:#91BCF8;
 }
 
 .slider1
@@ -3424,7 +3425,7 @@ tr#heading-level3 th {
    padding: 5px 5px;
 }
 td.drink {font-size: 1.1em; font-weight: bold; text-align: left;}
-tbody td {text-align: center;}
+/*tbody td {text-align: center;}*/
 tr#head-coffee {background-color: #f6a924; color: #FFF; font-size: 1.7em; text-align: left !important;}
 tr#head-coffee td,
 tr#head-tea td,
@@ -5093,11 +5094,11 @@ h1.bannerhead { font-size:24px; color:#ffffff; padding:10px 15px; float:left; li
 .subheading { font-size:14px; font-weight:bold; color:#22539a; }
 .boldtext { font-weight:bold; }
 .footertop { background-color:#063764; border-bottom:3px solid #3d6487; color:#ffffff; border-radius:8px;}
-.footerbottom { background:url(../../images/footbg.gif) repeat-x #063764; color:#ffffff; }
+.footerbottom { background:url(../../images/footbg.gif) repeat-x #063764; color:#ffffff; padding-left:100px;}
 .footerbottom p { padding:0px; margin:0px; color:#91bcf8; }
 .footerbottom div { float:left; padding-right:20px; width:213px;  }
 .footerbottom ul { padding:10px 10px 0px 10px; margin:0px; list-style-type:none; }
-.footerbottom ul li { padding:0px 0px 7px 10px; line-height:18px; background:url(../../images/footarrow.gif) 0px 7px no-repeat; }
+.footerbottom ul li { padding:0px 0px 7px 10px; line-height:18px; background:url(/assets/footarrow.gif) 0px 7px no-repeat; }
 .footerbottom ul li span { font-weight:bold; color:#b4cad8; }
 .footerbottom ul li a { text-decoration:none; color:#91bcf8; }
 .footerbottom ul li a:hover { text-decoration:underline; }
@@ -5114,10 +5115,10 @@ h1.bannerhead { font-size:24px; color:#ffffff; padding:10px 15px; float:left; li
 .quadnews ul li span { font-weight:bold; color:#ffffff; }
 .quadnews ul li a { text-decoration:underline; color:#b4cad8; }
 .quadnews ul li a:hover { text-decoration:none; }
-.getqute { float:left; width:240px; padding:17px 10px; }
+.getqute { float:left; width:240px; padding:17px 10px; margin-left: 60px;}
 .getqute input { background-color:#164c89; border:1px solid #053058; margin-bottom:5px; width:190px; color:#84a7bd; padding:3px 5px; }
 .getqute textarea { background-color:#164c89; border:1px solid #053058; margin-bottom:5px; width:190px; color:#84a7bd; padding:0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:12px; }
-.download { float:left; width:210px; padding:10px; }
+.download { float:left; width:210px; padding:16px; margin-left: 60px; }
 .download a { text-decoration:underline; color:#ffffff; line-height:18px; }
 .download a.newsarchive { text-decoration:underline; color:#f9683b; font-weight:normal; background:url(../../images/newsarchive_arrow.gif) 82px 7px no-repeat; padding-right:20px; }
 .download a:hover { text-decoration:none; }
@@ -5414,4 +5415,9 @@ input.getaquote { background:url(../../images/get_me_quote.png) no-repeat; width
    width: 1280px;
    padding-left: 68px; 
    /*border-radius: 8px;*/
+}
+
+.proj
+{
+   /*padding-top: 10px;*/
 }

@@ -2283,7 +2283,7 @@ tr.Navigator td, td span.Navigator
 
 .Siltek-footer ul>li:before
 {
-   content:url('/assets/footerbullets.png');
+   /*content:url('/assets/footerbullets.png');*/
    margin-right:6px;
    bottom: 2px;
    position:relative;

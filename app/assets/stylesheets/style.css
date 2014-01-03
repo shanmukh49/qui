@@ -947,12 +947,13 @@ border: 1px solid rgb(209, 209, 209);*/
 {
    width:1200px;
 position: relative;
-   margin: 0 auto 0 auto;
+   /*margin: 0 auto 0 auto;*/
    z-index: auto !important;
    background-color: rgb(255, 255, 255);
 border-radius: 8px;
 border: 1px solid rgb(209, 209, 209);
 margin-top:10px;
+margin-left: 70px;
 background-color:#FFFFFF;
 }
 .Siltek-content-layout-row 

@@ -481,7 +481,7 @@ li p, .Siltek-postcontent li p, .Siltek-blockcontent li p
 }  
 .Siltek-nav
 {
-   background: #789594;
+   background: #A9D0F5;
    background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    background: -webkit-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    background: -moz-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
@@ -641,7 +641,7 @@ ul.Siltek-hmenu>li>a
 
 ul.Siltek-hmenu>li>a.active
 {
-   background: #789594;
+   background: #A9D0F5;
    background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    background: -webkit-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    background: -moz-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
@@ -666,7 +666,7 @@ ul.Siltek-hmenu>li:hover>a {
 
 ul.Siltek-hmenu>li>a:hover, .desktop ul.Siltek-hmenu>li:hover>a
 {
-   background: #789594;
+   background: #A9D0F5;
    background: linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    background: -webkit-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
    background: -moz-linear-gradient(top, #A9D0F5 0, #A9D0F5 100%) no-repeat;
@@ -780,7 +780,7 @@ ul.Siltek-hmenu li li:after
 
 ul.Siltek-hmenu ul li a:hover, .desktop ul.Siltek-hmenu ul li:hover>a
 {
-   background: #789594;
+   background: #A9D0F5;
    -webkit-border-radius:1px;
    -moz-border-radius:1px;
    border-radius:1px;
@@ -799,7 +799,7 @@ ul.Siltek-hmenu ul li a:hover, .desktop ul.Siltek-hmenu ul li:hover>a
 
 ul.Siltek-hmenu ul:before
 {
-   background: #789594;
+   background: #848484;
    -webkit-border-radius:3px;
    -moz-border-radius:3px;
    border-radius:3px;

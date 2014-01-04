@@ -6,9 +6,7 @@ gem 'jquery-sliders-rails'
 gem 'text_slider'
 gem 'pony'
 # Use sqlite3 as the database for Active Record
-group :development,:test do
  gem 'mysql2'
-end
 group :production do
 	gem 'pg'
 end

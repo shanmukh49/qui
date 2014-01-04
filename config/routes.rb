@@ -1,4 +1,6 @@
 Siltek::Application.routes.draw do
+  get "inquiries/new"
+  get "inquiries/create"
   get "services/service"
   get "services/software_dev"
   get "services/web_dev"
@@ -45,8 +47,13 @@ Siltek::Application.routes.draw do
   get "technology_training/php_mysql_training"
   get "technology_training/rubyonrails_technology"
   get "technology_training/database_training"
-
-
+  get "inquiries/new"
+  get "inquiries/thank_you"
+  post "inquiries/new"
+  post "inquiries/thank_you"
+resources :inquiries, :only => [:new, :create] do
+get 'thank_you', :on => :collection
+end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

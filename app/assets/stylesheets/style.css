@@ -317,8 +317,10 @@ body
 
 form
 {
-   padding: 0 !important;
-   margin: 0 !important;
+   /*padding: 0 !important;
+   margin: 0 !important;*/
+   margin-top:10px;
+   margin-left:70px;
 }
 
 table.position
@@ -1727,6 +1729,7 @@ a img
 {
    border-collapse: collapse;
    margin: 1px;
+   float:left;
 }
 
 .Siltek-post .Siltek-content-layout-br
@@ -2747,7 +2750,7 @@ height: 10px;
 {
    /*position:fixed;*/
    z-index:999999;
-   background-color: #00BFFF;
+   background-color: #0B3861;
    width:100%;
    height:100px;
 }
@@ -2787,7 +2790,7 @@ height: 10px;
 }
 
 .smenu{
-background-color: #00BFFF;
+background-color: #0B3861;
 float:right;
 margin-top:30px;
 
@@ -5037,7 +5040,7 @@ h2.subdescripternew span {
 @import url('fotslidebar.css');
 
 /*body { padding:0px; margin:0px; background:url(../../images/bg.gif) repeat-x #0093dd; font-style:normal; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#676767; }*/
-h1 { padding:10px 0px 5px 5px; margin:0px; font-size:18px; font-weight:normal; border-bottom:1px solid #e0eaf0; }
+h1 { padding:10px 0px 5px 5px; margin:0px; font-size:18px; font-weight:normal; }
 h1 span { color:#f95d2d; }
 #footertabs { padding:20px; }
 h2, .footerbottom #footertabs h3, .footerbottom div.industries h3 { padding:0px 0px 5px 10px; margin:0px; font-size:18px; border-bottom:3px solid #164c89; font-weight:normal; }
@@ -5375,7 +5378,7 @@ ul#slideShowCount li.slide { line-height:14px; float:right; cursor:pointer; widt
 text-align:center; height:14px; line-height:14px; display:block; margin:0px 2px;
 background:url(../../images/tabs.png) no-repeat left top; }
 ul#slideShowCount li.slide span { color:#ffffff; font-weight:bold; font-size:12px; display:none; } 
-a { color:#ffcc00;}
+/*a { color:#ffcc00;}*/
 ul#slideShowCount li.slide:hover { background-position:left bottom; }
 ul#slideShowCount li.slide.selectedTab { background-position:left bottom; }
 div#slideShow { width:966px; padding-bottom:10px; }
@@ -5434,7 +5437,42 @@ input.getaquote { background:url(../../images/get_me_quote.png) no-repeat; width
    /*border-radius: 8px;*/
 }
 
-.proj
+.contact
 {
-   /*padding-top: 10px;*/
+   /*padding-left: 100px;*/
+   border-radius: 80px;
+border: 1px solid rgb(94, 172, 26);
+width:400px;
+float:right;
+margin-top: 35px;
+}
+
+.maincontact
+{
+   margin-left: 100px;
+}
+
+#reset{
+
+   padding:10px;
+   padding-left:0px;
+   margin-left: 100px;
+}
+
+.actual_logbtn {
+    background-color: rgb(0, 153, 204);
+    height: 28px;
+    width: 88px;
+    border: 1px solid rgb(39, 137, 186);
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.thanq{
+
+   min-height: 200px;
 }

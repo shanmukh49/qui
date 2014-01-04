@@ -7,7 +7,7 @@ end
 def create
 @inquiry = Inquiry.new(params[:inquiry])
 if @inquiry.deliver
-render :action => "thank_you"
+render "inquiries/thank_you"
 else
 render :new
 end

@@ -32,11 +32,13 @@ test:
   
 
 production:
-  adapter: mysql2
+  adapter: pg
   encoding: utf8
   reconnect: false
-  database: silteksite_production
+  database: deub7sp2ijc1c0
   pool: 5
-  username: root
-  password: root
+  username: arvpqqlvkfjbhi
+  password: JL_83T-LfEfU9QJoYFn0Em-ihM
+
+  
 
